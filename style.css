@@ -1,0 +1,66 @@
+
+
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: lavender;
+}
+#gameContainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.leftPanel{
+    width: 80%;
+    background-color: lightgreen;
+}
+.rightPanel{
+    width: 20%;
+    background-color: pink;
+}
+.heroArea{
+    height: 40%;
+    background-color: lightblue;
+}
+.currentPlayerHand{
+    height: 30%;
+    background-color: lavender;
+}
+.currentPlayerRooms{
+    height: 30%;
+    background-color: lightyellow;
+}
+#templates{
+    display: none;
+}
+/* player style */
+.player{
+    border-bottom: 2px solid black;
+}
+.player:nth-child(even){
+    background-color:lightgrey;
+}
+.nameAndAttractsContainer{
+    display: flex;
+}
+.nameAndAttractsContainer .name{
+    font-size: 200%;
+    font-weight: bold;
+    width: 50%;
+}
+.nameAndAttractsContainer .attracts{
+    width: 50%;
+}
+.pointsContainer{
+    display: flex;
+    border-top:1px solid black
+}
+.pointsContainer .life{
+    color: red;
+    width: 50%;
+}
+.pointsContainer .points{
+    color: blue;
+    width: 50%;
+}
